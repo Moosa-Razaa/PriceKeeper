@@ -1,59 +1,35 @@
 # Dependency directories
-node_modules/
+back-end/node_modules/
 
 # Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+back-end/logs
+back-end/*.log
+back-end/npm-debug.log*
+back-end/yarn-debug.log*
+back-end/yarn-error.log*
 
 # Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+back-end/pids
+back-end/*.pid
+back-end/*.seed
+back-end/*.pid.lock
 
 # Directory for storing generated documentation
-doc/
+back-end/doc/
 
 # Coverage directory used by tools like istanbul
-coverage/
+back-end/coverage/
 
 # nyc test coverage
-.nyc_output/
+back-end/.nyc_output/
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+back-end/.grunt
 
 # Bower dependency directory (https://bower.io/)
-bower_components/
+back-end/bower_components/
 
 # node-waf configuration
-.lock-wscript
+back-end/.lock-wscript
 
-# Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
-
-# Distribution directory
-dist/
-
-# Sass cache
-.sass-cache/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# yarn v1
-.yarn/*
-!.yarn/patches
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
+# Compiled binary addons (https://nodejs.org/api
