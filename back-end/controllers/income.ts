@@ -26,7 +26,7 @@ export async function AddIncome(request: Request, response: Response)
     }
 }
 
-export async function GetIncomes(request: Request, response: Response)
+export async function GetIncomes(_request: Request, response: Response)
 {
     try {
         const incomes = await IncomeModel.find().sort({ createdAt: -1 });

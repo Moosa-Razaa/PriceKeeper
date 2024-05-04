@@ -40,4 +40,5 @@ const ExpenseSchema = new mongoose.Schema(
     }
 );
 
-module.exports = mongoose.model("Expense", ExpenseSchema);
+const expenseModel = mongoose.model("Expense", ExpenseSchema);
+export default expenseModel;
