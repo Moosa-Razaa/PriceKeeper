@@ -1,9 +1,10 @@
 import express from "express";
+import { AddIncome, DeleteIncome, GetIncomes } from "../controllers/income";
 
 const router = express.Router();
 
-router.get("/", (_req, res) => {
-    res.send("Hello World!");
-});
+router.post("/income", AddIncome);
+router.get("/income", GetIncomes);
+router.delete("/income/:id", DeleteIncome);
 
 module.exports = router;
