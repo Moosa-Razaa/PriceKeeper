@@ -2,13 +2,14 @@ import { Layout } from 'antd';
 import style from './App.module.css';
 import { Content, Header } from 'antd/es/layout/layout';
 import Sider from 'antd/es/layout/Sider';
+import SiderComponent from './components/sider';
 
 function App() {
   return (
     <div className={style["main"]}>
       <Layout className={style["layoutStyle"]}>
       <Sider className={style["siderStyle"]} width="25%">
-        Sider
+        <SiderComponent />
       </Sider>
       <Layout>
         <Header className={style["headerStyle"]}>Header</Header>
@@ -19,4 +20,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
